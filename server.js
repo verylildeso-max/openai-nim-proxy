@@ -30,8 +30,8 @@ const MODEL_MAPPING = {
   'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
-  'glm-5.1': 'z-ai/glm-5.1',
-  'glm-5.2': 'z-ai/glm-5.2', // <--- Ваша новая флагманская модель
+  'glm-5-3' : 'z-ai/glm-5-3',
+  'glm-5-3-flash': 'z-ai/glm-5-3-flash', // <--- Ваша новая флагманская модель
   
   // Другие актуальные модели
   'deepseek-r1': 'deepseek-ai/deepseek-r1',
