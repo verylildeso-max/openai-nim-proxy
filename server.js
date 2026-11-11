@@ -23,13 +23,12 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  'claude-3-opus': 'openai/gpt-oss-120b',
-  'gemma-4-31b-it': 'google/gemma-4-31b-it',
-  'Mistral-Large-4': 'mistralai/Mistral Large 4',
+  'glm-5.3': 'z-ai/glm-5.3-flash',
+  'gemma-4': 'google/gemma-4-31b-it',
+  'Mistral': 'mistralai/mistral-large-4-1t-a52b',
   'kimi-k3.1-pro': 'moonshotai/kimi-k3.1-pro',
   'nemotron-3.5-super-vl-120b-a12b' : 'nvidia/nemotron-3.5-super-vl-120b-a12b',
   'deepseek-v4.1-flash': 'deepseek-ai/deepseek-v4.1-flash',
-  'llama-3.3-70b': 'meta/llama-3.3-70b-instruct',
   'deepseek-v4-pro': 'deepseek-ai/deepseek-v4-pro-0813',
   'nemotron-3-ultra': 'nvidia/nemotron-3-ultra-550b-a55b',
   'nemotron-3-nano-omni': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning'
